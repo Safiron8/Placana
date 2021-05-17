@@ -5,8 +5,11 @@
 Hodnoty k nahrazení v sendMessage:
 
 GUILDID - Id serveru
+
 CHANNELID - Id kanálu, kam se má zpráva posílat
+
 AUTH-TOKEN - Autorizační token, Restart discordu -> CTRL+SHIFT+I -> Konzole -> Application -> Local storage -> hledat "token" (s nikým nesdílet)
+
 TOKEN - Token pro odesílání zpráv, CTRL+SHIFT+I -> Konzole -> Network -> napište třeba smajlíka -> objeví se síťový provoz s názvem "science" -> kliknout -> sjet dolu -> request payload -> "token"
 
 Případně lze zopakovat kroky z TOKENu a místo smajlíka poslat zprávu a na síťový provoz "message" kliknout pravým a dát copy -> copy as fetch a nahradit to v tělíčku funkce sendMessage s úpravou body, aby se tam dávala custom message.
