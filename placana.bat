@@ -1,0 +1,1 @@
+node placana.js token="DISCORD_TOKEN" chance=100 channel="CHANNEL_ID" activeHours="08-20"
